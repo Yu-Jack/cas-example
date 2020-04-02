@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "randomstring": "^1.1.5"
+  }
+}
