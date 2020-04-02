@@ -2,6 +2,8 @@
 
 Central Authentication Service Example Node.js Version
 
+Node Version: 10+
+
 ## Bootstrap
 
 1. modiyfy /etc/hosts with following setting, and run `npm install`
