@@ -15,7 +15,7 @@ Node Version: 10+
 2. `node ap1.js`
 3. `node ap2.js`
 4. `node cas.js`
-5. go to `http://test.example1.com:4000/` to login, username: 123, password: 123
+5. go to `http://test.example1.com:4000/` to login in the CAS page, type username: 123, password: 123.
 6. go to `http://test.example2.com:5000/`, you'll be redirect to manager page becase you've logined in step 5.
 7. you can exit the program, and re-run the nodejs. Then go `http://test.example2.com:5000/` first to login.
 
