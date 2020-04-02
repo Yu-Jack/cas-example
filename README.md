@@ -24,7 +24,7 @@ AP1 server is the applcation server 1 written in the ap1.js.
 AP2 server is the applcation server 2 written in the ap2.js.  
 CAS server is written in the cas.js.  
 
-When you click login url in the AP1, you'll be redirect to the CAS login page.
-After you login successfully, CAS will generate the cookie information which you already logined.
-Then you go to the AP2, you click login url and you'll be redirect to the CAS login page.
-But, this time CAS konwn you by the cookie information. So, you don't need to login again, and then you'll be redirect to the AP2.
+When you click login url in the AP1, you'll be redirect to the CAS login page.  
+After you login successfully, CAS will generate the cookie information which you already logined.  
+Then you go to the AP2, you click login url and you'll be redirect to the CAS login page.  
+But, this time CAS konwn you by the cookie information. So, you don't need to login again, and then you'll be redirect to the AP2.  
