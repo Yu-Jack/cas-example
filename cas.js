@@ -98,6 +98,12 @@ app.post("/verify", (req, res) => {
     if (getHmac(ticket, serviceUrl) !== checksum) {
         return res.json({status: 102, msg: "wrong checksum"});
     }
+    
+    if (req.session.userInfo) {
+        if (req.session.userInfo[serviceUrl] !== ticket) {
+            return res.json({status: 103, msg: "This guy doesn't exist."});
+        }
+    }
 
     res.json({
         status: 200,
