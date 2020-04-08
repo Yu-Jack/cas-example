@@ -7,10 +7,10 @@ Node Version: 10+
 ## Bootstrap
 
 1. modiyfy /etc/hosts with following setting, and run `npm install`
-    ```
-    127.0.0.1       test.example1.com
-    127.0.0.1       test.example2.com
-    127.0.0.1       test.cas-example.com
+    ```sh
+    127.0.0.1       test.example1.com # AP1
+    127.0.0.1       test.example2.com # AP2
+    127.0.0.1       test.cas-example.com # CAS Server
     ```
 2. `node ap1.js`
 3. `node ap2.js`
